@@ -1,0 +1,274 @@
+{
+ "en": {
+  "title": "Privacy Policy",
+  "intro": "This policy explains what ClueGrid collects when you play, why, and the choices you have. ClueGrid is provided by {controller}, who is responsible for your data. Last updated: {date}.",
+  "sections": [
+   [
+    "What we collect",
+    [
+     "Account: a random player ID created when you first open the app. If you sign in with Apple or Google, we receive an account ID from them and, if you allow it, your email address and name. You can also set a display name and choose an avatar.",
+     "Game data: the puzzles you play and solve, your times, scores, coins, streaks, achievements, leaderboard positions and the friends you add with a friend code.",
+     "Settings: your language, time zone and reminder preferences, and a device token if you allow notifications.",
+     "Purchases: if you buy coins or remove ads, the App Store or Google Play confirms the purchase to us. We never see your card or bank details.",
+     "Reports: if you use \"Report an error\", the puzzle, the clue and the message you write.",
+     "Technical data: your IP address and app version in our server logs, and crash and usage information that helps us fix problems."
+    ]
+   ],
+   [
+    "How we use it",
+    [
+     "To run the game: save your progress across devices, show leaderboards and friends, pay coins and rewards, and send the reminders you ask for.",
+     "To check purchases and rewarded ads, and to prevent cheating and abuse.",
+     "To fix errors in puzzles and in the app, and to improve the game.",
+     "We do not sell your personal data."
+    ]
+   ],
+   [
+    "Services we use",
+    [
+     "Amazon Web Services (servers and storage in the European Union), Apple and Google (sign-in, purchases and notifications through Firebase), Google AdMob (ads, which may use your device’s advertising ID; you can limit this in your phone’s settings), and OpenAI (writing and checking puzzle clues; the text of an error report is sent to it, but not your name or email). We may also use crash reporting and analytics services that receive pseudonymous technical data."
+    ]
+   ],
+   [
+    "What other players see",
+    [
+     "Your display name, avatar, level and scores on leaderboards, and to friends you add."
+    ]
+   ],
+   [
+    "How long we keep it",
+    [
+     "As long as your account exists. When you delete your account in the app (Settings, Account, Delete account), we delete your data straight away, except records we must keep by law, such as purchase records."
+    ]
+   ],
+   [
+    "Your rights",
+    [
+     "You can see, correct, export or delete your data, object to some uses and complain to your data protection authority. To use these rights, write to {email}."
+    ]
+   ],
+   [
+    "Children",
+    [
+     "ClueGrid is not directed at children under 13 (16 where local law requires) and we do not knowingly collect their data. If you think a child has given us data, contact us and we will delete it."
+    ]
+   ],
+   [
+    "Changes",
+    [
+     "If we change this policy, we will update the date above and, for important changes, tell you in the app."
+    ]
+   ],
+   [
+    "Contact",
+    [
+     "{controller}, {email}"
+    ]
+   ]
+  ]
+ },
+ "es": {
+  "title": "Política de privacidad",
+  "intro": "Esta política explica qué datos recoge ClueGrid cuando juegas, para qué y qué opciones tienes. ClueGrid lo ofrece {controller}, responsable de tus datos. Última actualización: {date}.",
+  "sections": [
+   [
+    "Qué recogemos",
+    [
+     "Cuenta: un identificador de jugador aleatorio que se crea al abrir la aplicación por primera vez. Si inicias sesión con Apple o Google, recibimos de ellos un identificador de cuenta y, si lo permites, tu correo y tu nombre. También puedes elegir un nombre visible y un avatar.",
+     "Datos de juego: los crucigramas que juegas y resuelves, tus tiempos, puntuaciones, monedas, rachas, logros, posiciones en las clasificaciones y los amigos que añades con un código de amigo.",
+     "Ajustes: tu idioma, tu zona horaria y tus preferencias de recordatorios, y un identificador del dispositivo si permites notificaciones.",
+     "Compras: si compras monedas o quitas los anuncios, App Store o Google Play nos confirman la compra. Nunca vemos los datos de tu tarjeta o tu banco.",
+     "Avisos de error: si usas «Informar de un error», el crucigrama, la pista y el mensaje que escribes.",
+     "Datos técnicos: tu dirección IP y la versión de la aplicación en los registros del servidor, e información de fallos y de uso que nos ayuda a corregir problemas."
+    ]
+   ],
+   [
+    "Para qué los usamos",
+    [
+     "Para que el juego funcione: guardar tu progreso entre dispositivos, mostrar clasificaciones y amigos, dar monedas y recompensas y enviarte los recordatorios que pidas.",
+     "Para comprobar compras y anuncios con recompensa, y para evitar trampas y abusos.",
+     "Para corregir errores en los crucigramas y en la aplicación, y para mejorar el juego.",
+     "No vendemos tus datos personales."
+    ]
+   ],
+   [
+    "Servicios que usamos",
+    [
+     "Amazon Web Services (servidores y almacenamiento en la Unión Europea), Apple y Google (inicio de sesión, compras y notificaciones mediante Firebase), Google AdMob (anuncios, que pueden usar el identificador de publicidad del dispositivo; puedes limitarlo en los ajustes del teléfono) y OpenAI (redactar y revisar las pistas; recibe el texto de un aviso de error, pero no tu nombre ni tu correo). También podemos usar servicios de informes de fallos y de estadísticas que reciben datos técnicos seudónimos."
+    ]
+   ],
+   [
+    "Qué ven otros jugadores",
+    [
+     "Tu nombre visible, tu avatar, tu nivel y tus puntuaciones en las clasificaciones y para los amigos que añadas."
+    ]
+   ],
+   [
+    "Cuánto tiempo los guardamos",
+    [
+     "Mientras exista tu cuenta. Si la eliminas en la aplicación (Ajustes, Cuenta, Eliminar cuenta), borramos tus datos en el momento, salvo los registros que la ley nos obliga a conservar, como los de compras."
+    ]
+   ],
+   [
+    "Tus derechos",
+    [
+     "Puedes acceder a tus datos, corregirlos, exportarlos o eliminarlos, oponerte a algunos usos y reclamar ante la autoridad de protección de datos. Para ejercerlos, escribe a {email}."
+    ]
+   ],
+   [
+    "Menores",
+    [
+     "ClueGrid no está dirigido a menores de 13 años (o 14 o 16 donde la ley local lo exija) y no recogemos sus datos a sabiendas. Si crees que un menor nos ha dado datos, contáctanos y los eliminaremos."
+    ]
+   ],
+   [
+    "Cambios",
+    [
+     "Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es importante, te avisaremos en la aplicación."
+    ]
+   ],
+   [
+    "Contacto",
+    [
+     "{controller}, {email}"
+    ]
+   ]
+  ]
+ },
+ "tr": {
+  "title": "Gizlilik Politikası",
+  "intro": "Bu politika, ClueGrid oynarken hangi verileri topladığımızı, neden topladığımızı ve hangi seçeneklere sahip olduğunuzu açıklar. ClueGrid, verilerinizden sorumlu olan {controller} tarafından sunulur. Son güncelleme: {date}.",
+  "sections": [
+   [
+    "Topladığımız veriler",
+    [
+     "Hesap: uygulamayı ilk açtığınızda oluşturulan rastgele bir oyuncu kimliği. Apple veya Google ile giriş yaparsanız onlardan bir hesap kimliği ve izin verirseniz e-posta adresinizi ve adınızı alırız. Ayrıca bir görünen ad ve avatar seçebilirsiniz.",
+     "Oyun verileri: oynadığınız ve çözdüğünüz bulmacalar, süreleriniz, puanlarınız, jetonlarınız, serileriniz, başarılarınız, sıralamadaki yeriniz ve arkadaş koduyla eklediğiniz arkadaşlar.",
+     "Ayarlar: diliniz, saat diliminiz ve hatırlatma tercihleriniz; bildirimlere izin verirseniz bir cihaz belirteci.",
+     "Satın almalar: jeton alırsanız veya reklamları kaldırırsanız App Store ya da Google Play satın almayı bize onaylar. Kart veya banka bilgilerinizi hiçbir zaman görmeyiz.",
+     "Hata bildirimleri: \"Hata bildir\" özelliğini kullanırsanız bulmaca, ipucu ve yazdığınız mesaj.",
+     "Teknik veriler: sunucu kayıtlarında IP adresiniz ve uygulama sürümünüz; sorunları gidermemize yardımcı olan çökme ve kullanım bilgileri."
+    ]
+   ],
+   [
+    "Verileri nasıl kullanırız",
+    [
+     "Oyunu çalıştırmak için: ilerlemenizi cihazlar arasında kaydetmek, sıralamaları ve arkadaşları göstermek, jeton ve ödül vermek, istediğiniz hatırlatmaları göndermek.",
+     "Satın almaları ve ödüllü reklamları doğrulamak, hile ve kötüye kullanımı önlemek için.",
+     "Bulmacalardaki ve uygulamadaki hataları düzeltmek ve oyunu geliştirmek için.",
+     "Kişisel verilerinizi satmayız."
+    ]
+   ],
+   [
+    "Kullandığımız hizmetler",
+    [
+     "Amazon Web Services (Avrupa Birliği’nde sunucular ve depolama), Apple ve Google (giriş, satın almalar ve Firebase üzerinden bildirimler), Google AdMob (reklamlar; cihazınızın reklam kimliğini kullanabilir, bunu telefon ayarlarından sınırlayabilirsiniz) ve OpenAI (bulmaca ipuçlarını yazmak ve kontrol etmek; bir hata bildiriminin metni ona gönderilir, ancak adınız veya e-postanız gönderilmez). Takma adlı teknik veriler alan çökme raporlama ve analiz hizmetleri de kullanabiliriz."
+    ]
+   ],
+   [
+    "Diğer oyuncuların gördükleri",
+    [
+     "Görünen adınız, avatarınız, seviyeniz ve puanlarınız sıralamalarda ve eklediğiniz arkadaşlara görünür."
+    ]
+   ],
+   [
+    "Verileri ne kadar saklarız",
+    [
+     "Hesabınız var olduğu sürece. Hesabınızı uygulamada silerseniz (Ayarlar, Hesap, Hesabı sil) verilerinizi hemen sileriz; satın alma kayıtları gibi yasa gereği saklamamız gerekenler hariç."
+    ]
+   ],
+   [
+    "Haklarınız",
+    [
+     "Verilerinize erişebilir, onları düzeltebilir, dışa aktarabilir veya silebilir, bazı kullanımlara itiraz edebilir ve veri koruma kurumuna şikâyette bulunabilirsiniz. Bu haklarınızı kullanmak için {email} adresine yazın."
+    ]
+   ],
+   [
+    "Çocuklar",
+    [
+     "ClueGrid 13 yaşın altındaki çocuklara (yerel yasanın gerektirdiği yerlerde 16) yönelik değildir ve onların verilerini bilerek toplamayız. Bir çocuğun bize veri verdiğini düşünüyorsanız bizimle iletişime geçin, silelim."
+    ]
+   ],
+   [
+    "Değişiklikler",
+    [
+     "Bu politikayı değiştirirsek yukarıdaki tarihi güncelleriz; önemli değişiklikleri uygulamada bildiririz."
+    ]
+   ],
+   [
+    "İletişim",
+    [
+     "{controller}, {email}"
+    ]
+   ]
+  ]
+ },
+ "ru": {
+  "title": "Политика конфиденциальности",
+  "intro": "Эта политика объясняет, какие данные собирает ClueGrid во время игры, зачем и какой у вас есть выбор. ClueGrid предоставляет {controller}, ответственный за ваши данные. Последнее обновление: {date}.",
+  "sections": [
+   [
+    "Что мы собираем",
+    [
+     "Аккаунт: случайный идентификатор игрока, который создаётся при первом запуске приложения. Если вы входите через Apple или Google, мы получаем от них идентификатор аккаунта и, с вашего разрешения, адрес эл. почты и имя. Вы также можете указать отображаемое имя и выбрать аватар.",
+     "Игровые данные: кроссворды, которые вы играете и решаете, ваше время, очки, монеты, серии, достижения, места в рейтингах и друзья, добавленные по коду друга.",
+     "Настройки: язык, часовой пояс и настройки напоминаний, а также токен устройства, если вы разрешили уведомления.",
+     "Покупки: если вы покупаете монеты или отключаете рекламу, App Store или Google Play подтверждают нам покупку. Мы никогда не видим данные вашей карты или банка.",
+     "Сообщения об ошибках: если вы пользуетесь функцией «Сообщить об ошибке» — кроссворд, подсказка и ваш текст.",
+     "Технические данные: ваш IP-адрес и версия приложения в журналах сервера, а также сведения о сбоях и использовании, которые помогают нам исправлять проблемы."
+    ]
+   ],
+   [
+    "Как мы их используем",
+    [
+     "Чтобы игра работала: сохранять ваш прогресс на разных устройствах, показывать рейтинги и друзей, начислять монеты и награды, отправлять напоминания, которые вы включили.",
+     "Чтобы проверять покупки и рекламу с наградой и не допускать обмана и злоупотреблений.",
+     "Чтобы исправлять ошибки в кроссвордах и в приложении и улучшать игру.",
+     "Мы не продаём ваши персональные данные."
+    ]
+   ],
+   [
+    "Сервисы, которыми мы пользуемся",
+    [
+     "Amazon Web Services (серверы и хранение данных в Европейском союзе), Apple и Google (вход, покупки и уведомления через Firebase), Google AdMob (реклама, которая может использовать рекламный идентификатор устройства; его можно ограничить в настройках телефона) и OpenAI (составление и проверка подсказок; ему передаётся текст сообщения об ошибке, но не ваше имя и не адрес почты). Мы также можем использовать сервисы отчётов о сбоях и аналитики, получающие псевдонимные технические данные."
+    ]
+   ],
+   [
+    "Что видят другие игроки",
+    [
+     "Ваше отображаемое имя, аватар, уровень и очки в рейтингах и у добавленных вами друзей."
+    ]
+   ],
+   [
+    "Как долго мы храним данные",
+    [
+     "Пока существует ваш аккаунт. Если вы удалите аккаунт в приложении (Настройки, Аккаунт, Удалить аккаунт), мы сразу удалим ваши данные, кроме записей, которые обязаны хранить по закону, например о покупках."
+    ]
+   ],
+   [
+    "Ваши права",
+    [
+     "Вы можете получить доступ к своим данным, исправить, выгрузить или удалить их, возразить против некоторых видов использования и подать жалобу в орган по защите данных. Чтобы воспользоваться этими правами, напишите на {email}."
+    ]
+   ],
+   [
+    "Дети",
+    [
+     "ClueGrid не предназначен для детей младше 13 лет (16, где этого требует местный закон), и мы сознательно не собираем их данные. Если вы считаете, что ребёнок передал нам данные, свяжитесь с нами, и мы их удалим."
+    ]
+   ],
+   [
+    "Изменения",
+    [
+     "Если мы изменим эту политику, мы обновим дату выше, а о важных изменениях сообщим в приложении."
+    ]
+   ],
+   [
+    "Контакты",
+    [
+     "{controller}, {email}"
+    ]
+   ]
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+:root{--sky:#2D7BF0;--outline:#1B3F8A;--panel:#FFF7E8;--panel-ink:#7A4A1E;--ink:#1d2433;--muted:#5b647a;--line:#E2C9A0;
+--display:'Nunito','Arial Rounded MT Bold',system-ui,sans-serif;--body:'Jost','Avenir Next','Segoe UI',system-ui,sans-serif;color-scheme:light}
+@font-face{font-family:'Nunito';src:url('/assets/fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+@font-face{font-family:'Jost';src:url('/assets/fonts/Jost-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Jost';src:url('/assets/fonts/Jost-Medium.ttf') format('truetype');font-weight:500;font-display:swap}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#2D7BF0,#6CC3FF) fixed;color:var(--ink);font:500 17px/1.65 var(--body)}
+a{color:#1F5FCC}a:focus-visible{outline:3px solid #FFC83D;outline-offset:2px;border-radius:4px}
+.bar{display:flex;align-items:center;gap:16px;padding:10px max(16px,calc((100% - 860px)/2));background:rgba(31,95,204,.9)}
+.bar a.brand{display:flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font:900 21px/1 var(--display)}.bar img{width:44px}
+.bar nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}.bar nav a{color:#fff;font:800 14px/1 var(--display);text-decoration:none}
+.bar nav a[aria-current]{text-decoration:underline;text-underline-offset:5px}
+main{max-width:860px;margin:28px auto 48px;padding:32px clamp(18px,4vw,48px);background:var(--panel);border-radius:28px;box-shadow:0 0 0 6px rgba(45,123,240,.9),0 10px 0 6px #1F5FCC;width:calc(100% - 32px)}
+h1{font:900 clamp(28px,4.5vw,40px)/1.15 var(--display);color:#fff;-webkit-text-stroke:.14em var(--outline);paint-order:stroke fill;text-shadow:0 .08em 0 var(--outline);margin:0 0 14px;text-wrap:balance}
+h2{font:900 20px/1.3 var(--display);color:var(--panel-ink);margin:28px 0 6px}p{margin:8px 0;max-width:70ch}
+.langs{font:700 14px/1 var(--display);color:var(--muted);margin-bottom:14px;display:flex;gap:12px;flex-wrap:wrap}.langs b{color:var(--outline)}
+.intro{font-size:18px}footer{text-align:center;color:#fff;padding:0 16px 36px;font-size:14px}footer a{color:#fff}
