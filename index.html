@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClueGrid · Picture crosswords in five languages</title>
+  <meta name="description" content="ClueGrid is an arrowword crossword game: the clue sits in the square, the arrow points the way. Picture clues, a new daily puzzle every day, leaderboards with friends, in English, Spanish, Turkish and Russian.">
+  <meta name="theme-color" content="#2D7BF0">
+  <meta property="og:title" content="ClueGrid: picture crosswords in five languages">
+  <meta property="og:description" content="The clue sits in the square, the arrow points the way. A new daily puzzle every day.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/Nunito-Variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"><canvas id="tiles"></canvas></div>
+
+  <header class="bar">
+    <a class="brand" href="#top" aria-label="ClueGrid home">
+      <picture><source srcset="assets/logo.webp" type="image/webp"><img src="assets/logo.png" alt="" width="54" height="45"></picture>
+      <span>ClueGrid</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#daily">Daily puzzle</a>
+      <a href="#languages">Languages</a>
+    </nav>
+    <a class="btn btn-green btn-small" href="#download">Get the app</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <picture class="hero-logo"><source srcset="assets/logo.webp" type="image/webp"><img src="assets/logo.png" alt="ClueGrid" width="360" height="299"></picture>
+        <h1 class="outlined"><span>The clue sits in the square.</span> <span>The arrow points the way.</span></h1>
+        <p class="lede">ClueGrid is a crossword you read at a glance: every clue lives inside the grid, right before its word. Some clues are pictures. A new daily puzzle lands every morning, in five languages.</p>
+        <div class="stores" id="download">
+          <a class="store" href="https://apps.apple.com/app/id6819964219" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 .1-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
+            <span><small>Download on the</small>App Store</span>
+          </a>
+          <a class="store" href="https://play.google.com/store/apps/details?id=app.playcluegrid" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.4.7-.4 1.2v17c0 .5.1.9.4 1.2l9.5-9.7-9.5-9.7zm10.6 10.8 2.6 2.7-11 6.3 8.4-9zm0-2.2L5.8 1.9l11 6.3-2.6 2.7zm3.8 3.7-2.9-2.9 2.9-2.9 3.3 1.9c.9.6.9 1.5 0 2l-3.3 1.9z"/></svg>
+            <span><small>Get it on</small>Google Play</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="play-card" aria-labelledby="try-title">
+        <div class="ribbon" id="try-title">Try it here</div>
+        <div class="board" id="board" role="grid" aria-label="A small ClueGrid puzzle. Choose a white square and type." tabindex="0"></div>
+        <p class="play-status" id="status" role="status">Tap a white square and type. Tap it again to switch direction.</p>
+        <div class="play-actions">
+          <button type="button" class="btn btn-yellow btn-small" id="hint"><img src="assets/pictures/emoji_u1f4a1.png" alt="" width="20" height="20">Hint</button>
+          <button type="button" class="btn btn-blue btn-small" id="reveal">Reveal word</button>
+          <button type="button" class="btn btn-white btn-small" id="restart">Start again</button>
+        </div>
+        <div class="keys" id="keys" aria-label="Letters"></div>
+      </div>
+    </section>
+
+    <section class="panel" id="how" aria-labelledby="how-title">
+      <h2 id="how-title" class="section-title outlined">How it works</h2>
+      <div class="steps">
+        <article class="step">
+          <div class="step-demo" aria-hidden="true">
+            <div class="mini-clue">Very<br>quick<i class="arrow-r"></i></div><div class="mini-tile">F</div><div class="mini-tile">A</div><div class="mini-tile">S</div><div class="mini-tile">T</div>
+          </div>
+          <h3>Read the square</h3>
+          <p>Each clue is printed in a cream square. Its arrow shows where the answer goes: to the right, or down.</p>
+        </article>
+        <article class="step">
+          <div class="step-demo" aria-hidden="true">
+            <div class="mini-clue pic"><img src="assets/pictures/emoji_u1f3af.png" alt="" width="34" height="34"><b>BUL___YE</b><i class="arrow-r"></i></div><div class="mini-tile">L</div><div class="mini-tile">S</div><div class="mini-tile">E</div>
+          </div>
+          <h3>Picture clues</h3>
+          <p>Some squares show a picture instead of words. Others show a word with a gap: the answer is the missing letters.</p>
+        </article>
+        <article class="step">
+          <div class="step-demo" aria-hidden="true">
+            <div class="mini-clue split"><span>Gone at<br>auction</span><span>Out of<br>danger</span><i class="arrow-r top"></i><i class="arrow-d"></i></div><div class="mini-tile good">S</div><div class="mini-tile good">O</div>
+          </div>
+          <h3>Two clues, one square</h3>
+          <p>A square split in two holds two clues: the top one goes right, the bottom one goes down.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
+      <h2 id="features-title" class="section-title outlined">Everything in one grid</h2>
+      <div class="feature-grid">
+        <article class="feature tone-yellow">
+          <img src="assets/pictures/emoji_u1f4c5.png" alt="" width="56" height="56">
+          <h3>A daily puzzle</h3>
+          <p>The same new puzzle for everyone in your language, every day. Keep your streak going.</p>
+        </article>
+        <article class="feature tone-blue">
+          <img src="assets/pictures/emoji_u1f3c6.png" alt="" width="56" height="56">
+          <h3>Leaderboards</h3>
+          <p>Today, this week and all time, with everyone or just your friends. Add friends with a short code.</p>
+        </article>
+        <article class="feature tone-green">
+          <img src="assets/pictures/emoji_u1fa99.png" alt="" width="56" height="56">
+          <h3>Coins for every word</h3>
+          <p>Each word you get right pays coins. Spend them on a hint, a letter or a whole word when you're stuck.</p>
+        </article>
+        <article class="feature tone-cream">
+          <img src="assets/pictures/emoji_u1f525.png" alt="" width="56" height="56">
+          <h3>New puzzles all the time</h3>
+          <p>Hundreds of puzzles in every language, mixed from Easy to Expert, with more arriving every day.</p>
+        </article>
+        <article class="feature tone-cream">
+          <img src="assets/pictures/emoji_u270f.png" alt="" width="56" height="56">
+          <h3>Plays offline</h3>
+          <p>Puzzles download to your phone. Solve on the train; your progress syncs when you're back online.</p>
+        </article>
+        <article class="feature tone-cream">
+          <img src="assets/pictures/emoji_u1f440.png" alt="" width="56" height="56">
+          <h3>Spot a mistake?</h3>
+          <p>Tap Report an error on any puzzle. Every report is checked, and wrong clues are fixed quickly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="daily" aria-labelledby="daily-title">
+      <h2 id="daily-title" class="section-title outlined">A week of daily puzzles</h2>
+      <p class="center-note">Like a newspaper crossword, the daily puzzle gets harder as the week goes on.</p>
+      <ol class="week">
+        <li class="lv-easy"><b>Mon</b><span>Easy</span></li>
+        <li class="lv-easy"><b>Tue</b><span>Easy</span></li>
+        <li class="lv-medium"><b>Wed</b><span>Medium</span></li>
+        <li class="lv-medium"><b>Thu</b><span>Medium</span></li>
+        <li class="lv-hard"><b>Fri</b><span>Hard</span></li>
+        <li class="lv-hard"><b>Sat</b><span>Hard</span></li>
+        <li class="lv-expert"><b>Sun</b><span>Expert</span></li>
+      </ol>
+    </section>
+
+    <section class="languages" id="languages" aria-labelledby="lang-title">
+      <h2 id="lang-title" class="section-title outlined">Five languages, five keyboards</h2>
+      <p class="center-note light">Each language has its own words, its own clues and its own keyboard. British English is kept apart from American English.</p>
+      <ul class="lang-grid">
+        <li><span class="flag-word">COLOR</span><b>English (US)</b><span class="keyrow"><kbd>Q</kbd><kbd>W</kbd><kbd>E</kbd><kbd>R</kbd><kbd>T</kbd><kbd>Y</kbd></span></li>
+        <li><span class="flag-word">COLOUR</span><b>English (UK)</b><span class="keyrow"><kbd>Q</kbd><kbd>W</kbd><kbd>E</kbd><kbd>R</kbd><kbd>T</kbd><kbd>Y</kbd></span></li>
+        <li><span class="flag-word">MAÑANA</span><b>Español</b><span class="keyrow"><kbd>L</kbd><kbd class="hl">Ñ</kbd><kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd></span></li>
+        <li><span class="flag-word">GÜNEŞ</span><b>Türkçe</b><span class="keyrow"><kbd class="hl">Ğ</kbd><kbd class="hl">Ü</kbd><kbd class="hl">Ş</kbd><kbd class="hl">İ</kbd><kbd class="hl">Ö</kbd><kbd class="hl">Ç</kbd></span></li>
+        <li><span class="flag-word">СЛОВО</span><b>Русский</b><span class="keyrow"><kbd>Й</kbd><kbd>Ц</kbd><kbd>У</kbd><kbd>К</kbd><kbd>Е</kbd><kbd>Н</kbd></span></li>
+      </ul>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <h2 id="cta-title" class="outlined">Today's puzzle is waiting.</h2>
+      <div class="stores">
+        <a class="store" href="https://apps.apple.com/app/id6819964219" rel="noopener"><span><small>Download on the</small>App Store</span></a>
+        <a class="store" href="https://play.google.com/store/apps/details?id=app.playcluegrid" rel="noopener"><span><small>Get it on</small>Google Play</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><a href="https://api.playcluegrid.app/privacy">Privacy policy</a> · <a href="mailto:privacy@playcluegrid.app">privacy@playcluegrid.app</a></p>
+    <p class="fine">© <span id="year">2026</span> ClueGrid. Picture clues use Noto Emoji (Apache License 2.0). App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
