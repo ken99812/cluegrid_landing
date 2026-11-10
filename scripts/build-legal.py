@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Builds the legal pages of the website: /privacy/ (with /privacy/es/, /privacy/tr/,
-/privacy/ru/), /terms/ and /eula/. Run from the repository root after changing anything here:
+/privacy/ru/), /terms/, /eula/ and /delete-account/ (with es, tr, ru). Run from the repository root after changing anything here:
 
     python3 scripts/build-legal.py
 
@@ -136,6 +136,115 @@ EULA = {
     ],
 }
 
+# Account deletion (Google Play's "delete account URL"). In-app labels match the app's
+# own translations (Settings, Account, Delete account, Friend code).
+DELETE = {
+    'en': {
+        'title': 'Delete your ClueGrid account',
+        'intro': 'ClueGrid Crossword is provided by {operator}. You can delete your ClueGrid account and the data linked to it at any time, in the app or by email. Last updated: {date}.',
+        'sections': [
+            ('Delete in the app', [[
+                'Open ClueGrid on your phone.',
+                'Tap the settings button, then Account.',
+                'Tap Delete account and confirm with Delete.',
+            ], 'Your account is deleted straight away. This works for guest accounts and for accounts signed in with Apple or Google.']),
+            ("If you can't open the app", [[
+                'Write to {email} from any email address, with the subject “Delete my account”.',
+                'Include your display name and your Friend code, which the app shows on your friends screen, so we can find your account. If you signed in with Apple or Google, you can give the email address of that account instead.',
+                'We confirm by email and delete the account within 30 days, usually much sooner.',
+            ]]),
+            ('What is deleted', [
+                'Your player account and its Apple or Google sign-in links; your display name and avatar; your coins and coin history; your level, stars, streak and achievements; your friends; your scores and leaderboard places; your puzzle progress; your purchase and “remove ads” records in our system; your rewarded-ad history; your notification settings and device tokens; and the error reports you sent.',
+            ]),
+            ('What is kept, and for how long', [
+                'Our database backups are kept for 14 days and then overwritten, so deleted data disappears from them within 14 days.',
+                'We keep a short record that a deletion was carried out, with the old player ID only: no name, email or other contact details.',
+                'Apple and Google keep their own records of purchases you made through the App Store or Google Play, under their own privacy policies. We keep only what the law requires us to keep.',
+                'Coins and purchases cannot be restored after deletion. If you play again later, you start with a new account.',
+            ]),
+            ('Questions', ['Write to {email}. See also our <a href="/privacy/">privacy policy</a>.']),
+        ],
+    },
+    'es': {
+        'title': 'Eliminar tu cuenta de ClueGrid',
+        'intro': 'ClueGrid Crossword es un servicio de {operator}. Puedes eliminar tu cuenta de ClueGrid y los datos asociados cuando quieras, en la app o por correo electrónico. Última actualización: {date}.',
+        'sections': [
+            ('Eliminar en la app', [[
+                'Abre ClueGrid en tu teléfono.',
+                'Toca el botón de ajustes y luego Cuenta.',
+                'Toca Eliminar cuenta y confirma con Eliminar.',
+            ], 'Tu cuenta se elimina en el acto. Funciona con cuentas de invitado y con cuentas vinculadas a Apple o Google.']),
+            ('Si no puedes abrir la app', [[
+                'Escribe a {email} desde cualquier dirección, con el asunto «Eliminar mi cuenta».',
+                'Indica tu nombre visible y tu Código de amigo, que la app muestra en la pantalla de amigos, para que podamos encontrar tu cuenta. Si iniciaste sesión con Apple o Google, puedes darnos el correo de esa cuenta.',
+                'Te lo confirmamos por correo y eliminamos la cuenta en un plazo de 30 días, normalmente mucho antes.',
+            ]]),
+            ('Qué se elimina', [
+                'Tu cuenta de jugador y sus vínculos con Apple o Google; tu nombre visible y avatar; tus monedas y su historial; tu nivel, estrellas, racha y logros; tus amigos; tus puntuaciones y puestos en las clasificaciones; tu progreso en los crucigramas; tus compras y «quitar anuncios» en nuestro sistema; tu historial de vídeos con recompensa; tus ajustes de notificaciones y tokens del dispositivo; y los informes de errores que enviaste.',
+            ]),
+            ('Qué se conserva y durante cuánto tiempo', [
+                'Las copias de seguridad de la base de datos se guardan 14 días y después se sobrescriben, así que los datos eliminados desaparecen de ellas en 14 días.',
+                'Guardamos un breve registro de que se realizó la eliminación, solo con el antiguo ID de jugador: sin nombre, correo ni otros datos de contacto.',
+                'Apple y Google conservan sus propios registros de las compras hechas en el App Store o Google Play, según sus políticas de privacidad. Nosotros solo guardamos lo que la ley exige.',
+                'Las monedas y compras no se pueden recuperar tras la eliminación. Si vuelves a jugar, empiezas con una cuenta nueva.',
+            ]),
+            ('Preguntas', ['Escribe a {email}. Consulta también nuestra <a href="/privacy/es/">política de privacidad</a>.']),
+        ],
+    },
+    'tr': {
+        'title': 'ClueGrid hesabını sil',
+        'intro': 'ClueGrid Crossword, {operator} tarafından sunulur. ClueGrid hesabını ve ona bağlı verileri istediğin zaman uygulamadan ya da e-postayla silebilirsin. Son güncelleme: {date}.',
+        'sections': [
+            ('Uygulamadan sil', [[
+                'Telefonunda ClueGrid’i aç.',
+                'Ayarlar düğmesine, ardından Hesap’a dokun.',
+                'Hesabı sil’e dokun ve Sil ile onayla.',
+            ], 'Hesabın hemen silinir. Misafir hesaplarda ve Apple ya da Google ile giriş yapılmış hesaplarda çalışır.']),
+            ('Uygulamayı açamıyorsan', [[
+                'Herhangi bir e-posta adresinden {email} adresine “Hesabımı sil” konusuyla yaz.',
+                'Hesabını bulabilmemiz için görünen adını ve uygulamanın arkadaşlar ekranında gösterdiği Arkadaş kodunu ekle. Apple ya da Google ile giriş yaptıysan o hesabın e-posta adresini de verebilirsin.',
+                'E-postayla onaylar ve hesabı 30 gün içinde, genellikle çok daha önce sileriz.',
+            ]]),
+            ('Neler silinir', [
+                'Oyuncu hesabın ve Apple ya da Google giriş bağlantıları; görünen adın ve avatarın; jetonların ve jeton geçmişin; seviyen, yıldızların, serin ve başarımların; arkadaşların; puanların ve sıralamalardaki yerlerin; bulmaca ilerlemen; sistemimizdeki satın alma ve “reklamları kaldır” kayıtların; ödüllü reklam geçmişin; bildirim ayarların ve cihaz jetonların; ve gönderdiğin hata bildirimleri.',
+            ]),
+            ('Neler saklanır, ne kadar süre', [
+                'Veritabanı yedeklerimiz 14 gün saklanır ve sonra üzerine yazılır; silinen veriler 14 gün içinde yedeklerden de kalkar.',
+                'Silme işleminin yapıldığına dair yalnızca eski oyuncu kimliğini içeren kısa bir kayıt tutarız: ad, e-posta ya da başka iletişim bilgisi yoktur.',
+                'Apple ve Google, App Store veya Google Play üzerinden yaptığın satın almaların kayıtlarını kendi gizlilik politikalarına göre saklar. Biz yalnızca yasanın gerektirdiğini saklarız.',
+                'Silmeden sonra jetonlar ve satın almalar geri getirilemez. Daha sonra tekrar oynarsan yeni bir hesapla başlarsın.',
+            ]),
+            ('Sorular', ['{email} adresine yaz. <a href="/privacy/tr/">Gizlilik politikamıza</a> da bakabilirsin.']),
+        ],
+    },
+    'ru': {
+        'title': 'Удаление аккаунта ClueGrid',
+        'intro': 'Приложение ClueGrid Crossword предоставляет {operator}. Вы можете в любой момент удалить свой аккаунт ClueGrid и связанные с ним данные — в приложении или по электронной почте. Обновлено: {date}.',
+        'sections': [
+            ('Удаление в приложении', [[
+                'Откройте ClueGrid на телефоне.',
+                'Нажмите кнопку настроек, затем «Аккаунт».',
+                'Нажмите «Удалить аккаунт» и подтвердите кнопкой «Удалить».',
+            ], 'Аккаунт удаляется сразу. Это работает и для гостевых аккаунтов, и для аккаунтов с входом через Apple или Google.']),
+            ('Если вы не можете открыть приложение', [[
+                'Напишите на {email} с любого адреса, тема письма — «Удалить мой аккаунт».',
+                'Укажите своё отображаемое имя и код друга, который приложение показывает на экране друзей, чтобы мы нашли ваш аккаунт. Если вы входили через Apple или Google, можно вместо этого указать адрес почты этого аккаунта.',
+                'Мы подтвердим по почте и удалим аккаунт в течение 30 дней, обычно гораздо быстрее.',
+            ]]),
+            ('Что удаляется', [
+                'Ваш игровой аккаунт и его привязки к Apple или Google; отображаемое имя и аватар; монеты и история монет; уровень, звёзды, серия и достижения; друзья; очки и места в рейтингах; прогресс в кроссвордах; записи о покупках и «Отключить рекламу» в нашей системе; история просмотров рекламы за награду; настройки уведомлений и токены устройства; а также отправленные вами сообщения об ошибках.',
+            ]),
+            ('Что сохраняется и как долго', [
+                'Резервные копии базы данных хранятся 14 дней и затем перезаписываются, поэтому удалённые данные исчезают из них в течение 14 дней.',
+                'Мы храним краткую запись о том, что удаление выполнено, только со старым ID игрока: без имени, почты и других контактных данных.',
+                'Apple и Google хранят собственные записи о покупках в App Store и Google Play согласно своим политикам конфиденциальности. Мы храним только то, что требует закон.',
+                'После удаления монеты и покупки восстановить нельзя. Если вы снова начнёте играть, будет создан новый аккаунт.',
+            ]),
+            ('Вопросы', ['Пишите на {email}. См. также нашу <a href="/privacy/ru/">политику конфиденциальности</a>.']),
+        ],
+    },
+}
+
 CSS = """:root{--sky:#2D7BF0;--outline:#1B3F8A;--panel:#FFF7E8;--panel-ink:#7A4A1E;--ink:#1d2433;--muted:#5b647a;--line:#E2C9A0;
 --display:'Nunito','Arial Rounded MT Bold',system-ui,sans-serif;--body:'Jost','Avenir Next','Segoe UI',system-ui,sans-serif;color-scheme:light}
 @font-face{font-family:'Nunito';src:url('/assets/fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
@@ -151,14 +260,15 @@ main{max-width:860px;margin:28px auto 48px;padding:32px clamp(18px,4vw,48px);bac
 h1{font:900 clamp(28px,4.5vw,40px)/1.15 var(--display);color:#fff;-webkit-text-stroke:.14em var(--outline);paint-order:stroke fill;text-shadow:0 .08em 0 var(--outline);margin:0 0 14px;text-wrap:balance}
 h2{font:900 20px/1.3 var(--display);color:var(--panel-ink);margin:28px 0 6px}p{margin:8px 0;max-width:70ch}
 .langs{font:700 14px/1 var(--display);color:var(--muted);margin-bottom:14px;display:flex;gap:12px;flex-wrap:wrap}.langs b{color:var(--outline)}
-.intro{font-size:18px}footer{text-align:center;color:#fff;padding:0 16px 36px;font-size:14px}footer a{color:#fff}"""
+.intro{font-size:18px}footer{text-align:center;color:#fff;padding:0 16px 36px;font-size:14px}footer a{color:#fff}
+ol{margin:0 0 14px;padding-left:22px}ol li{margin:0 0 8px;padding-left:4px}ol li::marker{font-weight:800;color:var(--outline)}"""
 
 
 def page(title, lang, body, nav_current, langs_html=''):
     current = ' aria-current="page"'
     nav = ''.join(
         f'<a href="{href}"{current if key == nav_current else ""}>{label}</a>'
-        for key, href, label in [('privacy', '/privacy/', 'Privacy'), ('terms', '/terms/', 'Terms'), ('eula', '/eula/', 'EULA')]
+        for key, href, label in [('privacy', '/privacy/', 'Privacy'), ('terms', '/terms/', 'Terms'), ('eula', '/eula/', 'EULA'), ('delete', '/delete-account/', 'Delete account')]
     )
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
@@ -185,13 +295,20 @@ def render(doc, fill):
     out = [f'<p class="intro">{fill(doc["intro"])}</p>']
     for heading, paras in doc['sections']:
         out.append(f'<h2>{html.escape(heading)}</h2>')
-        out.extend(f'<p>{fill(p)}</p>' for p in paras)
+        for p in paras:
+            # A list is numbered steps.
+            if isinstance(p, list):
+                out.append('<ol>' + ''.join(f'<li>{fill(i)}</li>' for i in p) + '</ol>')
+            else:
+                out.append(f'<p>{fill(p)}</p>')
     return '\n'.join(out)
 
 
 def filler(lang):
     def fill(text):
         s = html.escape(text, quote=False)
+        # Our own links in the texts (an <a href="/..."> to another page of this site).
+        s = s.replace('&lt;a href="/', '<a href="/').replace('/"&gt;', '/">').replace('&lt;/a&gt;', '</a>')
         operator = html.escape(OPERATOR[lang])
         s = s.replace('{controller}', operator).replace('{operator}', operator)
         s = s.replace('{date}', html.escape(UPDATED[lang]))
@@ -218,6 +335,13 @@ def main():
         write('privacy' if code == 'en' else f'privacy/{code}', page(text['title'], code, body, 'privacy', f'<div class="langs">{links}</div>\n'))
     write('terms', page(TERMS['title'], 'en', render(TERMS, filler('en')), 'terms'))
     write('eula', page(EULA['title'], 'en', render(EULA, filler('en')), 'eula'))
+    for code, text in DELETE.items():
+        links = ' '.join(
+            f'<b>{LANG_NAMES[c]}</b>' if c == code else f'<a href="/delete-account/{"" if c == "en" else c + "/"}">{LANG_NAMES[c]}</a>'
+            for c in DELETE
+        )
+        rel = 'delete-account' if code == 'en' else f'delete-account/{code}'
+        write(rel, page(text['title'], code, render(text, filler(code)), 'delete', f'<div class="langs">{links}</div>\n'))
 
 
 if __name__ == '__main__':

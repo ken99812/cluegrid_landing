@@ -2,10 +2,55 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/privacy-policy", "destination": "/privacy", "permanent": true },
-    { "source": "/terms-of-service", "destination": "/terms", "permanent": true },
-    { "source": "/terms-and-conditions", "destination": "/terms", "permanent": true },
-    { "source": "/tos", "destination": "/terms", "permanent": true },
-    { "source": "/license", "destination": "/eula", "permanent": true }
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/tos",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/license",
+      "destination": "/eula",
+      "permanent": true
+    },
+    {
+      "source": "/delete",
+      "destination": "/delete-account",
+      "permanent": true
+    },
+    {
+      "source": "/deletion",
+      "destination": "/delete-account",
+      "permanent": true
+    },
+    {
+      "source": "/account-deletion",
+      "destination": "/delete-account",
+      "permanent": true
+    },
+    {
+      "source": "/delete-my-account",
+      "destination": "/delete-account",
+      "permanent": true
+    },
+    {
+      "source": "/data-deletion",
+      "destination": "/delete-account",
+      "permanent": true
+    }
   ]
 }
