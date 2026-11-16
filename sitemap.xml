@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.playcluegrid.app/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/privacy</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/privacy/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/privacy/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/privacy/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/privacy/es</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/privacy/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/privacy/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/privacy/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/privacy/tr</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/privacy/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/privacy/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/privacy/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/privacy/ru</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/privacy/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/privacy/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/privacy/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/terms</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/eula</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/delete-account</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/delete-account/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/delete-account/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/delete-account/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/delete-account"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/delete-account/es</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/delete-account/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/delete-account/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/delete-account/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/delete-account"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/delete-account/tr</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/delete-account/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/delete-account/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/delete-account/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/delete-account"/>
+  </url>
+  <url>
+    <loc>https://www.playcluegrid.app/delete-account/ru</loc>
+    <lastmod>2026-11-10</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.playcluegrid.app/delete-account"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.playcluegrid.app/delete-account/es"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.playcluegrid.app/delete-account/tr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.playcluegrid.app/delete-account/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.playcluegrid.app/delete-account"/>
+  </url>
+</urlset>

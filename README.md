@@ -12,6 +12,7 @@ playable arrowword in the hero.
 | `styles.css` | All styles (colours taken from the app's `AppColors`) |
 | `app.js` | The playable mini puzzle and the drifting tiles |
 | `privacy/`, `terms/`, `eula/`, `legal.css` | Legal pages (generated, see below) |
+| `sitemap.xml`, `robots.txt` | Sitemap of every page (with language versions) for search engines; update `lastmod` when a page changes |
 | `vercel.json` | Clean addresses (`/privacy`, not `/privacy/index.html`) and aliases such as `/terms-and-conditions` |
 | `assets/logo.png`, `assets/logo.webp` | The ClueGrid logo |
 | `assets/pictures/` | Picture clues (Noto Emoji, Apache License 2.0) |
